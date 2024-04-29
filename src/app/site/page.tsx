@@ -12,7 +12,7 @@ import clsx from 'clsx'
 import { Check } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
-
+//This is a command
 export default async function Home() {
   const prices = await stripe.prices.list({
     product: process.env.NEXT_PLURA_PRODUCT_ID,
