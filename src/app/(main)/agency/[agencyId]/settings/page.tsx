@@ -8,6 +8,7 @@ type Props = {
   params: { agencyId: string }
 }
 
+//it's a test command
 const SettingsPage = async ({ params }: Props) => {
   const authUser = await currentUser()
   if (!authUser) return null
